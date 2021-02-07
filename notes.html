@@ -1,0 +1,201 @@
+<head>
+  <title>Notes for WebD HTML</title>
+</head>
+<body>
+  <!-- Centre tag aligns everything in the center-->
+  <center>
+      <h1>Notes For HTML(WebD)</h1>
+ <!-- This is how we write comments in html,the next line shows the use of br tag which is a self closing tag and helps create a break line-->
+      <br>
+      <h3>We should never skip any heading and shouldnt repeat h1 more than once in a web page.</h3>
+      <h4>We should never skip any heading and shouldnt repeat h1 more than once in a web page.</h4>
+      <h5>We should never skip any heading and shouldnt repeat h1 more than once in a web page.</h5>
+      <h6>We should never skip any heading and shouldnt repeat h1 more than once in a web page.</h6>
+  </center>
+  <!-- Below we have hr tag which is also a self closing tag and we have used the various attributes to add more style to our horizontal rule (hr) tag-->
+<hr size="3" color="blue" width="100" align="left">
+  <em>marks text that has stress    emphasis. <em>we can also nest text in   em tag to show greater  <em>emphasis</em></em></em>
+  <br>
+  <em>well</em>
+  <br>
+  <i>well</i>
+  <!--While em and i look the same in the browser they are quite different. <i> tag just tells us the styling of a word but <em> tag tells us that we need to emphasis this word hence giving more info to a fellow coder -->
+  <br>
+  <b>well</b>
+  <br>
+  <strong>well</<strong>
+  <!-- Similar to the em and i tag <b> tag just tells us the styling of the word whereas <<strong></strong>> tag tells us that the word is of importance.-->
+  <p>
+    <!--This is an unordered list we can change the bullet point to squares or other shapes using attributes-->
+    <ul>
+      <li>mark: says that the word is of <mark>relevance</mark></li>
+      <li>em: says that the word is of <em>emphasis</em></li>
+      <li>strong: says that the word is of <strong>importance</strong></li>
+        </ul>
+         <!--This is an ordered list we can change the bullet digits to alphabets using attributes-->
+        <ol>
+      <li>mark: says that the word is of <mark>relevance</mark></li>
+      <li>em: says that the word is of <em>emphasis</em></li>
+      <li>strong: says that the word is of <strong>importance</strong></li>
+        </ol>
+          </p>
+        <hr size="3" color="green" width="150" align="left">
+        <h2>The Lists in HTML</h2>
+        <ol>
+          <li><h3>Unordered Lists</h3></li>
+          <h4>Types in Unordered list</h4>
+          <ul>
+            <li>disc :	Sets the list item marker to a bullet (default)</li>
+            <li>circle: 	Sets the list item marker to a circle</li>
+            <li>square: 	Sets the list item marker to a square</li>
+            <li>none: 	The list items will not be marked</li>
+          </ul>
+          <li><h3>Ordered Lists</h3></li>
+          <h4>Types in Ordered list</h4>
+          <ul>
+            <li>a: lowercase letters</li>
+            <li>A: uppercase letters</li>
+            <li>i: lowercase Roman numerals</li>
+            <li>I: uppercase Roman numerals</li>
+            <li>1: numbers</li>
+          </ul>
+          <h2>IMG Tag in HTML</h2>
+          <p>
+          <!--In an <img> tag it is very important to have a source file.Also the alt attribute helps users and search engines uderstand the content of the website,and display the text when the img is not able to be processed-->
+          <img src="https://www.foodiewithfamily.com/wp-content/uploads/2014/01/Caramel-Corn-Sundae-a-450x500.jpg" alt="my fav icecream" width="350x500" </img>
+          <img src="HTML-Personalpade\images\icecream.jpg" alt="icecream" width="600" height="400"></img>
+  <h2>The ANCHOR (a) tag in HTML</h2>
+  <a href="https://devdocs.io/html/element/a">Documentation for a tag</a>
+  <br>
+  <a href="a_tag.html">u can also link another page</a>
+  </p>
+  <!--All the attributes of table tag have been used here-->
+  <table align='center',bgcolor='green',border='10',cellspacing='5',cellpading='10', rule='row',width='3'>
+  <caption>Caption tag gives a summary of the table we can also use the summary tag but caption is better</caption>
+    <thead>
+      <!--Shows that this is a the header of the table and increases understandibility of code-->
+      <th>Tables in HTML</th><!--this is the heading cell of the table-->
+    </thead>
+    <tbody>
+      <!--Shows that this is a the body of the table and increases understandibility of code-->
+      <tr><!--this is the table row element -->
+        <td><em>This is the table data tag, it helps create a cell for the table<em></td>
+      </tr>
+      <tr>
+        <td>colspan</td>
+    <td>This attribute contains a non-negative integer value that indicates for how many columns the cell extends. Its default value is 1</td>
+<tr>
+  <td>headers</td>
+    <td>This attribute contains a list of space-separated strings, each corresponding to the id attribute of the 'th' elements that apply to this element.</td>
+</tr>
+<tr>
+  <td>rowspan</td>
+    <td>This attribute contains a non-negative integer value that indicates for how many rows the cell extends. </td>
+    </tr>
+    <tr>
+<th>Deprecated attributes</th>
+</tr>
+<tr>
+  <td>abbr</td>
+  <td>This attribute contains a short abbreviated description of the cell's content. </td>
+  </tr>
+  <tr>
+    <td>align</td>
+    <td>This enumerated attribute specifies how the cell content's horizontal alignment will be handled</td>
+</tr>
+<tr>
+  <td>axis</td>
+    <td>This attribute contains a list of space-separated strings. </td>
+    </tr>
+    <tr>
+      <td>bgcolor</td>
+        <td>This attribute defines the background color of each cell in a column.</td>
+        <tr>
+        <td>char</td>
+        <td>The content in the cell element is aligned to a character.</td>
+        </tr>
+        <tr>
+          <td>charoff</td>
+          <td>This attribute is used to shift column data to the right of the character specified by the char attribute</td>
+        </tr>
+        <tr>
+          <td>height</td>
+          <td>This attribute is used to define a recommended cell height.</td>
+        </tr>
+        <tr>
+          <td>scope</td>
+          <td>This enumerated attribute defines the cells that the header (defined in the 'th') element relates to</td>
+        </tr>
+        <tr>
+          <td>valign</td>
+          <td>This attribute specifies how a text is vertically aligned inside a cell.</td>
+        </tr>
+        <tr>
+          <td>width</td>
+          <td>This attribute is used to define a recommended cell width.</td>
+        </tr>
+    </tbody>
+  </table>
+  <hr color="cyan">
+  <!--To create a form on the website we use the form tag,we can add sction atribute to control what the form can do and to control its functionability to some extent-->
+  <form action="mailto:yashasvi488@live.com?subject=feedback" method="post" enctype="text/plain"><h2>Feedback Form</h2>
+    <!--We have also used the encrypt attribute to control how the information gathered from the form is mailed to us-->
+    <label for="Username" >Name:</label>
+    <!--We use label tag in forms to create an association between the question and the data in the form,here for="" attribute creates an association using name=""attribute in inut tag-->
+    <input type="text" name="Username" value="Enter your name here" required>
+    <br>
+    <label for="startdate">Date Today</label>
+    <input type="date" name="SentDate" value="" required>
+    <br>
+    <label for="Bgcolor">What Background color do you prefer for this website?</label>
+    <input type="color" name="Bgcolor" value="">
+    <br>
+    <label for="rating">How much do you rate the notes website?</label>
+    <input type="number" name="rating" value="Rate between 0-5" max="5" min="0" >
+    <br>
+    <input type="range" name="usebality" value="usebality" min="0" max="10" >
+    <label for="usebality">Usebality of the Website</label>
+    <br>
+    <input type="range" name="improvement" value="improvement" min="0" max="10">
+    <label for="improvement">How much do we need to improve our notes?</label>
+    <br>
+    <label for="website">What is your favourite website from the 90s </label>
+    <input type="url" name="website" value="All websites in the 90s were made with html">
+    <p>Which lovely gender do you belong to?</p>
+
+    <input type="radio" name="gender" value="lgbtq" id="lgbtq" >
+    <label for="other">LGBTQ</label>
+    <input type="radio" name="gender" value="female" id="female" >
+    <label for="other">Female</label>
+    <input type="radio" name="gender" value="male" id="male" >
+    <label for="other">Male</label>
+    <br>
+    <p>What languages do you seek to learn?</p>
+  <input type="checkbox" name="html" value="html">
+  <label for="html">HTML</label>
+  <br>
+  <input type="checkbox" name="css" value="css">
+  <label for="css">CSS</label>
+  <br>
+  <input type="checkbox" name="js" value="js">
+  <label for="js">Java Script</label>
+  <br>
+  <input type="checkbox" name="php" value="php">
+  <label for="php">PHP</label>
+  <br>
+  <label for="practicesnaps">Would you like to add some snaps of your html projects?<b> ADD THEM HERE!!!</b></label>
+  <input type="file" name="practicesnaps" id="practicesnaps" accept="image/jpeg,image/x-png">
+  <p>I would love to know about you....add your details right below</p>
+  <label for="phone">Mobile No:</label>
+  <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required >
+  <br>
+  <label for="email">Email Adress:</label>
+  <input type="email" name="email" id="email" required>
+  <br>
+  <br>
+  <input type="submit" value="Submit">
+
+
+
+  </form>
+  </body>
